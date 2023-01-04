@@ -1,0 +1,16 @@
+.student{
+    height: auto;
+    width: auto;
+    border-radius: 2rem;
+    padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2rem;
+    background-color:#242582;
+    transition: all 400ms ease;
+}
+
+.student:hover{
+    border: solid 2px aqua;
+    opacity: 0.8;
+}
